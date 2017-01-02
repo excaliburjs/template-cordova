@@ -1,0 +1,11 @@
+{
+    "name": "game",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "postinstall": "copy node_modules\\excalibur\\dist www\\scripts\\vendor\\"
+    },
+    "dependencies": {
+        "excalibur": "next"
+    }
+}
